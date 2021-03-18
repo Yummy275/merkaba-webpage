@@ -14,6 +14,7 @@ const CardContainer = styled.div`
 
 const CardImg = styled.img`
     width: 100%;
+    height: auto;
 `;
 
 const WordsHolder = styled.div`
@@ -30,7 +31,7 @@ const CardBody = styled.p``;
 const Card = () => {
     return (
         <CardContainer>
-            <CardImg src="https://www.placecage.com/400/300"></CardImg>
+            <CardImg src="https://www.placecage.com/g/300/400"></CardImg>
             <WordsHolder>
                 <CardTitle>Example</CardTitle>
                 <CardBody>

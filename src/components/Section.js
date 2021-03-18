@@ -4,7 +4,8 @@ import SectionIntro from './SectionIntro';
 import stdStyles from '../stdStyles';
 
 const SectionContainer = styled.div`
-    margin-top: ${stdStyles.mt};
+    margin: ${stdStyles.mt} auto 0 auto;
+    width: 90%;
 `;
 
 const Section = ({ title, content }) => {
