@@ -6,6 +6,8 @@ const NavbarContainer = styled.div`
     width: 100%;
     background-color: #273043;
     position: sticky;
+    top: 0px;
+    z-index: 2;
 `;
 
 const OptionsHolder = styled.div`

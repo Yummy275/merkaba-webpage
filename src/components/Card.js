@@ -3,30 +3,40 @@ import styled from 'styled-components';
 
 const CardContainer = styled.div`
     width: 80%;
+    max-width: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    margin-top: 1rem;
 `;
 
 const CardImg = styled.img`
     width: 100%;
 `;
 
-const CardTitle = styled.h3``;
+const WordsHolder = styled.div`
+    background-color: #f2f3f4bf;
+    padding: 1rem;
+`;
+
+const CardTitle = styled.h3`
+    margin-bottom: 0.5rem;
+`;
 
 const CardBody = styled.p``;
 
 const Card = () => {
     return (
         <CardContainer>
-            <CardImg src="https://www.placecage.com/c/400/300"></CardImg>
-            <CardTitle>Example</CardTitle>
-            <CardBody>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque commodo ipsum in tellus varius, non vestibulum mi
-                efficitur.
-            </CardBody>
+            <CardImg src="https://www.placecage.com/400/300"></CardImg>
+            <WordsHolder>
+                <CardTitle>Example</CardTitle>
+                <CardBody>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque commodo ipsum in tellus varius, non vestibulum
+                    mi efficitur.
+                </CardBody>
+            </WordsHolder>
         </CardContainer>
     );
 };
