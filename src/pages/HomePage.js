@@ -27,6 +27,8 @@ const HomePage = () => {
                 title="Art"
                 content={<HomeArtSecContent></HomeArtSecContent>}
             ></Section>
+            <Section title="Crystals"></Section>
+            <Section title="Services"></Section>
             <Footer></Footer>
         </>
     );

@@ -4,7 +4,6 @@ import stdStyles from '../stdStyles';
 
 const IntroContainer = styled.div`
     width: 100%;
-    margin: ${stdStyles.mt} auto 0 auto;
     border-bottom: 3px solid #273043;
 `;
 

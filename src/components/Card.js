@@ -5,10 +5,10 @@ import stdStyles from '../stdStyles';
 const CardContainer = styled.div`
     width: 80%;
     max-width: 20rem;
+    margin: 1rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1rem;
     box-shadow: ${stdStyles.boxShadow};
 `;
 
@@ -31,7 +31,7 @@ const CardBody = styled.p``;
 const Card = () => {
     return (
         <CardContainer>
-            <CardImg src="https://www.placecage.com/g/300/400"></CardImg>
+            <CardImg src="https://www.placecage.com/g/400/300"></CardImg>
             <WordsHolder>
                 <CardTitle>Example</CardTitle>
                 <CardBody>
