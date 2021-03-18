@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import HomeHeader from '../components/HomeHeader';
 import Card from '../components/Card';
+import Footer from '../components/Footer';
 import stdStyles from '../stdStyles';
 
 const CardsHolder = styled.div`
@@ -20,6 +21,7 @@ const HomePage = () => {
                 <Card></Card>
                 <Card></Card>
             </CardsHolder>
+            <Footer></Footer>
         </>
     );
 };

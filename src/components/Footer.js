@@ -1,0 +1,53 @@
+import React from 'react';
+import styled from 'styled-components';
+import stdStyles from '../stdStyles';
+import fbImg from '../images/icons/facebook-icon.png';
+import instaImg from '../images/icons/insta-icon.png';
+import twitterImg from '../images/icons/twitter-icon.png';
+
+const Bottom = styled.div`
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    margin-top: ${stdStyles.mt};
+    align-items: center;
+    justify-content: center;
+    background-color: #273043;
+`;
+
+const IconsHolder = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 20rem;
+`;
+
+const LinkToMedia = styled.a`
+    display: flex;
+    cursor: pointer;
+`;
+
+const BottomIcon = styled.img`
+    height: 2.8rem;
+    width: 2.8rem;
+`;
+
+const Footer = () => {
+    return (
+        <Bottom>
+            <IconsHolder>
+                <LinkToMedia>
+                    <BottomIcon src={fbImg}></BottomIcon>
+                </LinkToMedia>
+                <LinkToMedia>
+                    <BottomIcon src={instaImg}></BottomIcon>
+                </LinkToMedia>
+                <LinkToMedia>
+                    <BottomIcon src={twitterImg}></BottomIcon>
+                </LinkToMedia>
+            </IconsHolder>
+        </Bottom>
+    );
+};
+
+export default Footer;

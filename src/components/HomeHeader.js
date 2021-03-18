@@ -34,7 +34,7 @@ const BlackBg = styled.div`
 const moveIn = keyframes`
     from {
         opacity: 0;
-        transform: translate(-35px, 15px)
+        transform: translate(-25px, 8px)
     }
     to {
         opacity: 1;
