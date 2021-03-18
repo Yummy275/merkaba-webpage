@@ -34,7 +34,7 @@ const BlackBg = styled.div`
 const moveIn = keyframes`
     from {
         opacity: 0;
-        transform: translate(-30px, 30px)
+        transform: translate(-35px, 15px)
     }
     to {
         opacity: 1;
@@ -49,10 +49,11 @@ const WordsBox = styled.div`
     justify-content: center;
     text-align: center;
     opacity: 0;
-    animation: ${moveIn} 0.3s ease-in 0.2s forwards;
+    animation: ${moveIn} 0.5s ease-in 0.3s forwards;
 `;
 
 const Words = styled.h1`
+    margin-bottom: 0.25rem;
     color: #ffeaec;
 `;
 
