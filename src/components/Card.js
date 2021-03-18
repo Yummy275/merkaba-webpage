@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import stdStyles from '../stdStyles';
 
 const CardContainer = styled.div`
     width: 80%;
@@ -8,6 +9,7 @@ const CardContainer = styled.div`
     flex-direction: column;
     align-items: center;
     margin-top: 1rem;
+    box-shadow: ${stdStyles.boxShadow};
 `;
 
 const CardImg = styled.img`

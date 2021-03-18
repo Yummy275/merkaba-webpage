@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import HomeHeader from '../components/HomeHeader';
 import Card from '../components/Card';
+import SectionIntro from '../components/SectionIntro';
 import Footer from '../components/Footer';
 import stdStyles from '../stdStyles';
 
@@ -21,6 +22,7 @@ const HomePage = () => {
                 <Card></Card>
                 <Card></Card>
             </CardsHolder>
+            <SectionIntro title="Art"></SectionIntro>
             <Footer></Footer>
         </>
     );

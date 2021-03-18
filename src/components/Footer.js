@@ -16,10 +16,11 @@ const Bottom = styled.div`
 `;
 
 const IconsHolder = styled.div`
+    width: 90%;
+    max-width: 50rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    max-width: 20rem;
 `;
 
 const LinkToMedia = styled.a`
