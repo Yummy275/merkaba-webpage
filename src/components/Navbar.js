@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import stdStyles from '../stdStyles';
 
 const NavbarContainer = styled.div`
     height: 3.5rem;
@@ -18,7 +19,7 @@ const OptionsHolder = styled.div`
 `;
 
 const NavOption = styled.a`
-    color: #ffeaec;
+    color: ${stdStyles.colors.secTwo};
     font-size: 1.1rem;
 `;
 

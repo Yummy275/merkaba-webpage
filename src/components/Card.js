@@ -18,7 +18,8 @@ const CardImg = styled.img`
 `;
 
 const WordsHolder = styled.div`
-    background-color: #f2f3f4bf;
+    color: ${stdStyles.colors.secOne};
+    background-color: ${stdStyles.colors.secTwo}d6;
     padding: 1rem;
 `;
 

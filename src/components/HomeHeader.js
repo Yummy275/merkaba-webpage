@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import heroImg from '../images/hero-img.jpg';
+import stdStyles from '../stdStyles';
 
 const HomeHeaderContainer = styled.div``;
 
@@ -50,16 +51,15 @@ const WordsBox = styled.div`
     text-align: center;
     opacity: 0;
     animation: ${moveIn} 0.5s ease-in 0.3s forwards;
+    color: ${stdStyles.colors.secTwo};
 `;
 
 const Words = styled.h1`
     margin-bottom: 0.25rem;
-    color: #ffeaec;
 `;
 
 const SubWords = styled.p`
     margin-top: 0.25rem;
-    color: #ffeaec;
 `;
 
 const HomeHeader = () => {
