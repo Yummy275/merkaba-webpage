@@ -11,6 +11,7 @@ const Section = ({ title, content }) => {
     return (
         <SectionContainer>
             <SectionIntro title={title}></SectionIntro>
+            {content}
         </SectionContainer>
     );
 };
