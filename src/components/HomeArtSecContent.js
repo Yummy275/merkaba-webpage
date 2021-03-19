@@ -19,6 +19,8 @@ const HomeArtSecContent = () => {
                     'https://www.placecage.com/1400/1000',
                     'https://www.placecage.com/g/1400/1000',
                     'https://www.placecage.com/c/1400/1000',
+                    'https://www.placecage.com/c/1400/1000',
+                    'https://www.placecage.com/g/1400/1000',
                 ]}
             ></Carousel>
             <StdBtn width="14">Explore More</StdBtn>
