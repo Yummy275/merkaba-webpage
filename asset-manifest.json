@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/merkaba-webpage/static/css/main.0987f444.chunk.css",
+    "main.js": "/merkaba-webpage/static/js/main.f3d0a5be.chunk.js",
+    "main.js.map": "/merkaba-webpage/static/js/main.f3d0a5be.chunk.js.map",
+    "runtime-main.js": "/merkaba-webpage/static/js/runtime-main.fc05ad30.js",
+    "runtime-main.js.map": "/merkaba-webpage/static/js/runtime-main.fc05ad30.js.map",
+    "static/js/2.3e4940aa.chunk.js": "/merkaba-webpage/static/js/2.3e4940aa.chunk.js",
+    "static/js/2.3e4940aa.chunk.js.map": "/merkaba-webpage/static/js/2.3e4940aa.chunk.js.map",
+    "index.html": "/merkaba-webpage/index.html",
+    "static/css/main.0987f444.chunk.css.map": "/merkaba-webpage/static/css/main.0987f444.chunk.css.map",
+    "static/js/2.3e4940aa.chunk.js.LICENSE.txt": "/merkaba-webpage/static/js/2.3e4940aa.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/merkaba-webpage/static/media/circles-bg.e71d675b.png",
+    "static/media/hero-img.fbf433e3.jpg": "/merkaba-webpage/static/media/hero-img.fbf433e3.jpg",
+    "static/media/insta-icon.bad287d7.png": "/merkaba-webpage/static/media/insta-icon.bad287d7.png",
+    "static/media/twitter-icon.9781618b.png": "/merkaba-webpage/static/media/twitter-icon.9781618b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc05ad30.js",
+    "static/js/2.3e4940aa.chunk.js",
+    "static/css/main.0987f444.chunk.css",
+    "static/js/main.f3d0a5be.chunk.js"
+  ]
+}
