@@ -4,6 +4,7 @@ import HomeHeader from '../components/HomeHeader';
 import Card from '../components/Card';
 import Section from '../components/Section';
 import HomeArtSecContent from '../components/HomeArtSecContent';
+import HomeCrystalSecContect from '../components/HomeCrystalSecContent';
 import Footer from '../components/Footer';
 import stdStyles from '../stdStyles';
 
@@ -27,8 +28,10 @@ const HomePage = () => {
                 title="Art"
                 content={<HomeArtSecContent></HomeArtSecContent>}
             ></Section>
-            <Section title="Crystals"></Section>
-            <Section title="Services"></Section>
+            <Section
+                title="Crystals"
+                content={<HomeCrystalSecContect></HomeCrystalSecContect>}
+            ></Section>
             <Footer></Footer>
         </>
     );
