@@ -23,8 +23,8 @@ const CrystalRow = styled.div`
 `;
 
 const CrystalImg = styled.img`
-    width: 90%;
-    max-width: 22rem;
+    width: 40%;
+    max-width: 20rem;
     margin: 0.25rem 0.25rem;
 `;
 

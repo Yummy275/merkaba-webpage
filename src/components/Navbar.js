@@ -36,6 +36,7 @@ const NavOption = styled.a`
 
 const Navbar = ({ setActivePage, activePage }) => {
     const setPage = (string) => {
+        window.scrollTo(0, 0);
         setActivePage(string);
     };
 

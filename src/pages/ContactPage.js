@@ -18,13 +18,22 @@ const ContactInfoBox = styled.div`
     text-align: center;
 `;
 
+const Title = styled.h3`
+    margin: 0.5rem 0;
+`;
+
+const Word = styled.p`
+    margin: 0.25rem 0;
+`;
+
 const ContactPage = () => {
     return (
         <Container>
             <ContactInfoBox>
-                <h3>Contact Me</h3>
-                <p>Email: example@gmail.com</p>
-                <p>Text/Call: 555-555-5555</p>
+                <Title>Contact Me</Title>
+                <Word>Email: example@gmail.com</Word>
+                <Word>Text/Call: 555-555-5555</Word>
+                <Title>Social Media</Title>
             </ContactInfoBox>
         </Container>
     );
