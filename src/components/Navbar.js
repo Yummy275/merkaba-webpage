@@ -19,18 +19,27 @@ const OptionsHolder = styled.div`
 `;
 
 const NavOption = styled.a`
+    cursor: pointer;
     color: ${stdStyles.colors.secTwo};
     font-size: 1.1rem;
 `;
 
-const Navbar = () => {
+const Navbar = ({ setActivePage }) => {
+    const setPage = (string) => {
+        setActivePage(string);
+    };
+
     return (
         <NavbarContainer>
             <OptionsHolder>
-                <NavOption>Home</NavOption>
-                <NavOption>Art</NavOption>
-                <NavOption>Crystals</NavOption>
-                <NavOption>Contact</NavOption>
+                <NavOption onClick={() => setPage('home')}>Home</NavOption>
+                <NavOption onClick={() => setPage('art')}>Art</NavOption>
+                <NavOption onClick={() => setPage('crystal')}>
+                    Crystals
+                </NavOption>
+                <NavOption onClick={() => setPage('contact')}>
+                    Contact
+                </NavOption>
             </OptionsHolder>
         </NavbarContainer>
     );
