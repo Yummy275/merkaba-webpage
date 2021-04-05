@@ -5,7 +5,6 @@ import Card from '../components/Card';
 import Section from '../components/Section';
 import HomeArtSecContent from '../components/HomeArtSecContent';
 import HomeCrystalSecContect from '../components/HomeCrystalSecContent';
-import Footer from '../components/Footer';
 import stdStyles from '../stdStyles';
 
 const CardsHolder = styled.div`
@@ -32,7 +31,6 @@ const HomePage = () => {
                 title="Crystals"
                 content={<HomeCrystalSecContect></HomeCrystalSecContect>}
             ></Section>
-            <Footer></Footer>
         </>
     );
 };

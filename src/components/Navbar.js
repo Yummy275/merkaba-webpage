@@ -20,11 +20,21 @@ const OptionsHolder = styled.div`
 
 const NavOption = styled.a`
     cursor: pointer;
-    color: ${stdStyles.colors.secTwo};
+    color: ${(props) =>
+        props.name === props.activePage
+            ? stdStyles.colors.mainTwo
+            : stdStyles.colors.secTwo};
     font-size: 1.1rem;
+    transition: transform 0.2s ease-in;
+    ${(props) =>
+        props.name === props.activePage
+            ? 'transform: scale(1.2);'
+            : `:hover {
+                transform: scale(1.2);
+            }`}
 `;
 
-const Navbar = ({ setActivePage }) => {
+const Navbar = ({ setActivePage, activePage }) => {
     const setPage = (string) => {
         setActivePage(string);
     };
@@ -32,12 +42,32 @@ const Navbar = ({ setActivePage }) => {
     return (
         <NavbarContainer>
             <OptionsHolder>
-                <NavOption onClick={() => setPage('home')}>Home</NavOption>
-                <NavOption onClick={() => setPage('art')}>Art</NavOption>
-                <NavOption onClick={() => setPage('crystal')}>
+                <NavOption
+                    name="home"
+                    activePage={activePage}
+                    onClick={() => setPage('home')}
+                >
+                    Home
+                </NavOption>
+                <NavOption
+                    name="art"
+                    activePage={activePage}
+                    onClick={() => setPage('art')}
+                >
+                    Art
+                </NavOption>
+                <NavOption
+                    name="crystal"
+                    activePage={activePage}
+                    onClick={() => setPage('crystal')}
+                >
                     Crystals
                 </NavOption>
-                <NavOption onClick={() => setPage('contact')}>
+                <NavOption
+                    name="contact"
+                    activePage={activePage}
+                    onClick={() => setPage('contact')}
+                >
                     Contact
                 </NavOption>
             </OptionsHolder>

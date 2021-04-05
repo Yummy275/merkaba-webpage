@@ -6,6 +6,7 @@ const CarouselContainer = styled.div`
     max-width: 45rem;
     display: flex;
     justify-content: center;
+    padding: 1rem 0;
 `;
 
 const Window = styled.div`
@@ -27,7 +28,7 @@ const CarouselImage = styled.img`
 const BtnsContainer = styled.div`
     display: flex;
     position: absolute;
-    bottom: 30px;
+    bottom: 35px;
 `;
 
 const CarouselBtn = styled.button`

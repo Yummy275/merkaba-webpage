@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import NameTitle from './components/NameTitle';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import ArtPage from './pages/ArtPage';
 
@@ -10,7 +11,10 @@ function App() {
     return (
         <div className="App">
             <NameTitle>Merkaba</NameTitle>
-            <Navbar setActivePage={setActivePage}></Navbar>
+            <Navbar
+                setActivePage={setActivePage}
+                activePage={activePage}
+            ></Navbar>
             {activePage === 'home' ? (
                 <HomePage></HomePage>
             ) : activePage === 'art' ? (
@@ -18,6 +22,7 @@ function App() {
             ) : (
                 ''
             )}
+            <Footer></Footer>
         </div>
     );
 }

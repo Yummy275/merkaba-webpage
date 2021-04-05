@@ -1,8 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import stdStyles from '../stdStyles';
 
 const ProductCardContainer = styled.div`
     text-align: center;
+    max-width: 36rem;
+    margin: 2rem;
+    color: ${stdStyles.colors.secTwo};
 `;
 
 const ProductImg = styled.img`
