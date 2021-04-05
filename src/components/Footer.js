@@ -9,7 +9,6 @@ const Bottom = styled.div`
     width: 100%;
     height: 3.5rem;
     display: flex;
-    margin-top: ${stdStyles.mt};
     align-items: center;
     justify-content: center;
     background-color: #273043;
