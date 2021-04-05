@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import ArtPage from './pages/ArtPage';
+import CrystalPage from './pages/CrystalPage';
 
 function App() {
     const [activePage, setActivePage] = useState('home');
@@ -19,6 +20,8 @@ function App() {
                 <HomePage></HomePage>
             ) : activePage === 'art' ? (
                 <ArtPage></ArtPage>
+            ) : activePage === 'crystal' ? (
+                <CrystalPage></CrystalPage>
             ) : (
                 ''
             )}

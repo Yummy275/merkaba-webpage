@@ -4,8 +4,8 @@ import stdStyles from '../stdStyles';
 
 const ProductCardContainer = styled.div`
     text-align: center;
-    max-width: 36rem;
-    margin: 2rem;
+    max-width: ${(props) => props.maxWidth}rem;
+    margin: 1rem;
     color: ${stdStyles.colors.secTwo};
 `;
 
@@ -17,9 +17,9 @@ const ProductTitle = styled.h3``;
 
 const ProductPrice = styled.p``;
 
-const ProductCard = ({ productImg, title, price }) => {
+const ProductCard = ({ productImg, title, price, maxWidth }) => {
     return (
-        <ProductCardContainer>
+        <ProductCardContainer maxWidth={maxWidth}>
             <ProductImg src={productImg}></ProductImg>
             <ProductTitle>{title}</ProductTitle>
             <ProductPrice>${price}</ProductPrice>
